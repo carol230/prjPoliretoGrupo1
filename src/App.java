@@ -5,7 +5,7 @@ public class App {
         SerieSignosAlternos oSerieSignosAlternos = new SerieSignosAlternos();
 
         System.out.println("Grupo: Uno");
-        System.out.println("Integrantes: Ivonne Ayala, ");
+        System.out.println("Integrantes: Ivonne Ayala, Leandor Alava, Lenin Amagandi, Alexis Bautista, Sebastian Bravo ");
 
     
     }
