@@ -1,4 +1,4 @@
-## Getting Started
+# Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
@@ -13,13 +13,13 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 > If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+### Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-## Poli retos I
+### Poli retos I
 
-# POLIRETO I
+### POLIRETO I
 
 Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
 
@@ -32,24 +32,24 @@ Es hora de saber hasta donde puedes llegar, para lo cual debes cumplir con:
 
 >> Series numericas:
 
-	S1:  0 1 1 2 3 5 8 13 ...      
-	
-    S2:  1 0 3 0 5 0 7 0 9 ...
-	
-    S3:  0/1  1/3  1/5  2/7  3/9   5/11  8/13  13/15 ...
-	
-    S4:  0/2  1/4  1/6  2/8  3/10  5/12  8/14  13/16 ...
-	
-    S5:  2	 3	 5 	 7	 11	 13	 17	 19	 23	 29	 31	...
-	
-	S6:  1  4   9   16  25  36  49  64 ....
+    S1:  0 1 1 2 3 5 8 13 ... Leo     
 
-    S7:  1  4  7  10  13  16  19  22  25  ...
-	
-    S8:  3, 8, 13, 18, 23, 28, 33, 38, ...
-	
-    S9:  2, 4, 8, 16, 32, 64, 128, 256, ...
-	
-    S10: 3, 9, 27, 81, 243, 729, 2187, ...
+    S2:  1 0 3 0 5 0 7 0 9 ... Leo      
 
-    S12: 2  6   12  20  36  42  56  72  ...
+    S3:  0/1  1/3  1/5  2/7  3/9   5/11  8/13  13/15 ... Lenin
+
+    S4:  0/2  1/4  1/6  2/8  3/10  5/12  8/14  13/16 ... Lenin
+
+    S5:  2 3 5  7 11 13 17 19 23 29 31 ... Ivonne
+
+    S6:  1  4   9   16  25  36  49  64 .... Ivonne 
+
+    S7:  1  4  7  10  13  16  19  22  25  ... Alexis
+
+    S8:  3, 8, 13, 18, 23, 28, 33, 38, ... Alexis
+
+    S9:  2, 4, 8, 16, 32, 64, 128, 256, ... Sebastian
+
+    S10: 3, 9, 27, 81, 243, 729, 2187, ...Sebastian
+
+    S12: 2  6   12  20  36  42  56  72  ... Sebastian
