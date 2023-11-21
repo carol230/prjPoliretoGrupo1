@@ -14,12 +14,17 @@ public class SerieSignosAlternos {
         int n = oSerieSignosAlternos.nextInt();
 
         // Generar la serie Fibonacci usando un bucle for
-        System.out.println("Serie Fibonacci usando bucle for:");
+        System.out.println("Serie  S1 Fibonacci usando bucle for:");
         fibonacciConFor(n);
 
         // Generar la serie Fibonacci usando un bucle do-while
-        System.out.println("\nSerie Fibonacci usando bucle do-while:");
+        System.out.println("\nSerie S1 Fibonacci usando bucle do-while:");
         fibonacciConDoWhile(n);
+
+         // Generar la serie Fibonacci usando un bucle while
+        System.out.println("\nSerie S1 Fibonacci usando bucle while:");
+        fibonacciConWhile(n);
+ 
 
         oSerieSignosAlternos.close();        //Damos por cerrado el objeto
     }
@@ -48,5 +53,19 @@ public class SerieSignosAlternos {
             b = temp + b;
             count++;
         } while (count < n);
+    }
+
+     // Método para generar la serie Fibonacci usando un bucle while
+     public static void fibonacciConWhile(int n) {
+        int a = 0, b = 1;
+        int count = 0;
+
+        while (count < n) {
+            System.out.print(a + " ");
+            int temp = a;
+            a = b;
+            b = temp + b;
+            count++;
+        }
     }
 }
