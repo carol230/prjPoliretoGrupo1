@@ -2,61 +2,53 @@
  * (grupo1Nombre), caro.ayala2605@gmail.com
  * Version 1.0
  */
-
 public class SerieSignosAlternos {
     /*
      * showSerie muestra la serie
      * @param NroTerminos : numero de terminos para la serie
      */
     public void showSerie5(int NroTerminos){
-        System.out.println();
-        System.out.print("Ciclo for: ");
-        for (int i=2;i<NroTerminos;++i){
-            if(i==2){
-                System.out.print(i+" ");
-            }else if(i%2!=0){
-                System.out.print(i+" ");
-                i++;
-            }
+        System.out.print("\nCiclo for: ");
+        int contador=0;
+        for (int i=2;contador<NroTerminos;++i){
+        if (i==2||(i%2!=0)){
+            System.out.print(i+" ");
+            contador++;
         }
-        System.out.println();
-        System.out.print("Ciclo doWhile: ");
-        int i=2;
-        do {
-            if(i==2){
-                System.out.print(i+" ");
-            }else if(i%2!=0){
-                System.out.print(i+" ");
-            }
-            i++;
-        } while(i<NroTerminos);
-        System.out.println();
-        System.out.print("Ciclo While: ");
+    }
+        System.out.print("\nCiclo doWhile: ");
+        contador=0;
+        int k=2;
+        do{
+        if(k==2||(k%2!=0)){
+            System.out.print(k+" ");
+            contador++;
+        }
+        k++;
+        }while(contador<NroTerminos);
+        System.out.print("\nCiclo While: ");
+        contador=0;
         int j=2;
-        while(j<NroTerminos){
-            if(j==2){
-                System.out.print(j+" ");
-            }else if(j%2!=0){
-                System.out.print(j+" ");
-            }
-            j++;
+        while(contador<NroTerminos) {
+        if (j==2||(j%2!=0)){
+            System.out.print(j+" ");
+            contador++;
+        }
+        j++;
         }
     }
     public void showSerie6(int NroTerminos){
-        System.out.println();
-        System.out.print("Ciclo for: ");
+        System.out.print("\nCiclo for: ");
         for (int i=1;i<NroTerminos;++i){
             System.out.print(i*i+" ");
         }
-        System.out.println();
-        System.out.print("Ciclo doWhile: ");
-        int i=1;
+        System.out.print("\nCiclo doWhile: ");
+        int k=1;
         do {
-            System.out.print(i*i+" ");
-            i++;
-        } while (i<NroTerminos);
-        System.out.println();
-        System.out.print("Ciclo While: ");
+            System.out.print(k*k+" ");
+            k++;
+        } while (k<NroTerminos);
+        System.out.print("\nCiclo While: ");
         int j=1;
         while(j<NroTerminos){
             System.out.print(j*j+" ");
