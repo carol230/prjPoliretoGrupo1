@@ -21,7 +21,7 @@ public class App {
         SerieSignosAlternos.fibonacciConDoWhile(n);
         System.out.println("");
         SerieSignosAlternos.fibonacciConWhile(n);
-        
+        System.out.println("");
         // Llamar a los métodos de la clase SerieSignosAlternos2
         System.out.println("\nSERIE 2");
         SerieSignosAlternos2.serieS2ConFor(n);
@@ -30,12 +30,14 @@ public class App {
         System.out.println("");
         SerieSignosAlternos2.serieS2ConWhile(n);
         System.out.println("");
-
+        
         System.out.print("Serie 5: ");
         SerieSignosAlternos.showSerie5(n);
         System.out.print("\nSerie 6: ");
         SerieSignosAlternos.showSerie6(n);
-        
+
+        System.out.println("");
+
         System.out.print("\nSerie 9: ");
         System.out.println("\nSerie usando bucle for:");
         serie09 oSerie09 = new serie09();
@@ -44,6 +46,17 @@ public class App {
         oSerie09.procesodowhile(n);
         System.out.println("\nSerie usando bucle while:");
         oSerie09.procesowhile(n);
+
+        System.out.println("");
+
+        System.out.print("\nSerie 10: ");
+        System.out.println("\nSerie usando bucle for:");
+        serie10 oSerie10 = new serie10();
+        oSerie10.procesofor(n);
+        System.out.println("\nSerie usando bucle do while:");
+        oSerie10.procesodowhile(n);
+        System.out.println("\nSerie usando bucle while:");
+        oSerie10.procesowhile(n);
 
         oSerieSignosAlternos.close();
     }
