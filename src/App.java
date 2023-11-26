@@ -58,7 +58,7 @@ public class App {
         oSerie10.procesodowhile(n);
         System.out.println("\nSerie usando bucle while:");
         oSerie10.procesowhile(n);
-
+        
         oSerieSignosAlternos.close();
     }
 

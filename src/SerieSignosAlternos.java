@@ -100,7 +100,7 @@ Método para generar la serie Fibonacci usando un bucle for
         }
     }
     public static void showSerie5(int NroTerminos){
-        System.out.print("\nCiclo for: ");
+        System.out.println("\nSerie usando bucle for: ");
         int contador=0;
         for (int i=2;contador<NroTerminos;++i){
         if (i==2||(i%2!=0)){
@@ -108,7 +108,7 @@ Método para generar la serie Fibonacci usando un bucle for
             contador++;
         }
     }
-        System.out.print("\nCiclo doWhile: ");
+        System.out.println("\nSerie usando bucle doWhile: ");
         contador=0;
         int k=2;
         do{
@@ -118,7 +118,7 @@ Método para generar la serie Fibonacci usando un bucle for
         }
         k++;
         }while(contador<NroTerminos);
-        System.out.print("\nCiclo While: ");
+        System.out.println("\nSerie usando bucle while: ");
         contador=0;
         int j=2;
         while(contador<NroTerminos) {
@@ -130,17 +130,17 @@ Método para generar la serie Fibonacci usando un bucle for
         }
     }
     public static void showSerie6(int NroTerminos){
-        System.out.print("\nCiclo for: ");
+        System.out.println("\nSerie usando bucle for: ");
         for (int i=1;i<NroTerminos;++i){
             System.out.print(i*i+" ");
         }
-        System.out.print("\nCiclo doWhile: ");
+        System.out.println("\nSerie usando bucle doWhile: ");
         int k=1;
         do {
             System.out.print(k*k+" ");
             k++;
         } while (k<NroTerminos);
-        System.out.print("\nCiclo While: ");
+        System.out.println("\nSerie usando bucle while: ");
         int j=1;
         while(j<NroTerminos){
             System.out.print(j*j+" ");
