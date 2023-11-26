@@ -3,11 +3,11 @@
  * Version 1.0
  */
 
-
 /**
 "Scanner" se utilizará para leer la entrada del usuario.
 */
 import java.util.Scanner;        
+
 public class SerieSignosAlternos {
     
 /**
@@ -50,6 +50,9 @@ Damos por cerrado el objeto
 /**
 Método para generar la serie Fibonacci usando un bucle for
 */
+
+    // Método para generar la serie Fibonacci usando un bucle for
+
     public static void fibonacciConFor(int n) {
         int a = 0, b = 1;
 
@@ -64,11 +67,11 @@ Método para generar la serie Fibonacci usando un bucle for
 /** 
 * Método para generar la serie Fibonacci usando un bucle do-while
 */
+    // Método para generar la serie Fibonacci usando un bucle do-while
 
     public static void fibonacciConDoWhile(int n) {
         int a = 0, b = 1;
         int count = 0;
-
         do {
             System.out.print(a + " ");
             int temp = a;
@@ -81,7 +84,10 @@ Método para generar la serie Fibonacci usando un bucle for
 /**
  * Método para generar la serie Fibonacci usando un bucle while
 */
+
+    // Método para generar la serie Fibonacci usando un bucle while
     public static void fibonacciConWhile(int n) {
+
         int a = 0, b = 1;
         int count = 0;
 
