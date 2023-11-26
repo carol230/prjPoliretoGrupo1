@@ -3,33 +3,53 @@
  * Version 1.0
  */
 
-import java.util.Scanner;        // "Scanner" se utilizará para leer la entrada del usuario.
 
+/**
+"Scanner" se utilizará para leer la entrada del usuario.
+*/
+import java.util.Scanner;        
 public class SerieSignosAlternos {
-    public static void main(String[] args) {        //Metodo con el cual va ha iniciar el programa.
+    
+/**
+* Metodo con el cual va ha iniciar el programa.
+*/
+    public static void main(String[] args) {       
         Scanner oSerieSignosAlternos = new Scanner(System.in);   // se crea un objeto llamado "scanner" para leer la entrada del usuario
 
-        // Pedirle al usuario que ingrese por el terminal el numero "n" de elementos que se van a presentar en la susecion
+/**
+* Pedirle al usuario que ingrese por el terminal el numero "n" de elementos que se van a presentar en la susecion
+*/
         System.out.print("Ingrese el número de términos a generar: ");
         int n = oSerieSignosAlternos.nextInt();
 
-        // Generar la serie Fibonacci usando un bucle for
+/**
+* Generar la serie Fibonacci usando un bucle for
+*/
         System.out.println("Serie  S1 Fibonacci usando bucle for:");
         fibonacciConFor(n);
 
-        // Generar la serie Fibonacci usando un bucle do-while
+/**
+* Generar la serie Fibonacci usando un bucle do-while
+*/
         System.out.println("\nSerie S1 Fibonacci usando bucle do-while:");
         fibonacciConDoWhile(n);
 
-         // Generar la serie Fibonacci usando un bucle while
+/**
+* Generar la serie Fibonacci usando un bucle while
+*/
         System.out.println("\nSerie S1 Fibonacci usando bucle while:");
         fibonacciConWhile(n);
- 
 
-        oSerieSignosAlternos.close();        //Damos por cerrado el objeto
+
+/**
+Damos por cerrado el objeto
+*/
+        oSerieSignosAlternos.close();        
     }
 
-    // Método para generar la serie Fibonacci usando un bucle for
+/**
+Método para generar la serie Fibonacci usando un bucle for
+*/
     public static void fibonacciConFor(int n) {
         int a = 0, b = 1;
 
@@ -41,7 +61,10 @@ public class SerieSignosAlternos {
         }
     }
 
-    // Método para generar la serie Fibonacci usando un bucle do-while
+/** 
+* Método para generar la serie Fibonacci usando un bucle do-while
+*/
+
     public static void fibonacciConDoWhile(int n) {
         int a = 0, b = 1;
         int count = 0;
@@ -55,8 +78,10 @@ public class SerieSignosAlternos {
         } while (count < n);
     }
 
-     // Método para generar la serie Fibonacci usando un bucle while
-     public static void fibonacciConWhile(int n) {
+/**
+ * Método para generar la serie Fibonacci usando un bucle while
+*/
+    public static void fibonacciConWhile(int n) {
         int a = 0, b = 1;
         int count = 0;
 
