@@ -33,6 +33,7 @@ public class App {
         
         System.out.print("Serie 5: ");
         SerieSignosAlternos.showSerie5(n);
+        System.out.println("");
         System.out.print("\nSerie 6: ");
         SerieSignosAlternos.showSerie6(n);
 
