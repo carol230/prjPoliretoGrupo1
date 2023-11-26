@@ -6,7 +6,7 @@ public class serie09 {
     public void procesofor(int numterminos) {
         int a = 2;
         for (int i = 1; i <= numterminos; i++) {
-            System.out.print(" - "+a);
+            System.out.print(" "+a);
             a += 2;
         }
     }
@@ -14,7 +14,7 @@ public class serie09 {
         int a = 2;
         int i = 1;
         do {
-            System.out.print(" - "+a);
+            System.out.print(" "+a);
             a += 2;
             i++;
         } while (i <= numterminos);
@@ -26,13 +26,13 @@ public class serie09 {
         int a = 2;
         int i = 1;
         while (i <= numterminos) {
-            System.out.print(" - "+a);
+            System.out.print(" "+a);
             a += 2;
             i++;
         }
     }
 
-    public static void main(String[] args) throws Exception {
+   /*  public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner (System.in);
 
         System.out.print("Introduce un número entero: ");
@@ -54,4 +54,5 @@ public class serie09 {
         oSerie09.procesowhile(num);
         
     }
+    */
 }
