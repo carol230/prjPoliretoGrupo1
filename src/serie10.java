@@ -20,7 +20,7 @@ public class serie10{
     public void procesofor(int numterminos) {
         int a = 3;
         for (int i = 1; i <= numterminos; i++) {
-            System.out.print(" - "+a);
+            System.out.print(" "+a);
             a *= 3;
         }
     }
@@ -33,7 +33,7 @@ public class serie10{
         int a = 3;
         int i = 1;
         do {
-            System.out.print(" - "+a);
+            System.out.print(" "+a);
             a *= 3;
             i++;
         } while (i <= numterminos);
@@ -47,7 +47,7 @@ public class serie10{
         int a = 3;
         int i = 1;
         while (i <= numterminos) {
-            System.out.print(" - "+a);
+            System.out.print(" "+a);
             a *= 3;
             i++;
         }

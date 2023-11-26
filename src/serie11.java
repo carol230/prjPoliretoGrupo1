@@ -20,7 +20,7 @@ public class serie11{
         int a = 2;
         for (int i = 1; i <= numterminos; i++) {
             a = i * (i + 1);
-            System.out.print(" - " + a);
+            System.out.print(" " + a);
         }
     }
 
@@ -34,7 +34,7 @@ public class serie11{
         do {
             a = i * (i + 1);
             i++;
-            System.out.print(" - " + a);
+            System.out.print(" " + a);
         } while (i <= numterminos);   
     }
 
@@ -48,7 +48,7 @@ public class serie11{
         while (i <= numterminos) {
             a = i * (i + 1);
             i++;
-            System.out.print(" - " + a);
+            System.out.print(" " + a);
         }
     }
     
