@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import java.util.Scanner;
+
 public class App {
 
 
@@ -38,6 +40,38 @@ public class App {
         SerieSignosAlternos.showSerie6(n);
 
         System.out.println("");
+
+        System.out.println();
+        System.out.println("SERIE 7");
+        Serie7 oSerie7 = new Serie7();
+
+        System.out.println("Serie con ciclo For");
+        oSerie7.serie7For(n);
+
+        System.out.println();
+        System.out.println("Serie con ciclo While");
+        oSerie7.serie7While(n);
+
+        System.out.println();
+        System.out.println("Serie con ciclo Do-While");
+        oSerie7.serie7Dowhile(n);
+
+        System.out.println();
+        System.out.println();
+        System.out.println("SERIE 8");
+        Serie8 oSerie8 = new Serie8();
+
+        System.out.println("Serie con ciclo For");
+        oSerie8.serie8For(n);
+
+        System.out.println();
+        System.out.println("Serie con ciclo While");
+        oSerie8.serie8While(n);
+
+        System.out.println();
+        System.out.println("Serie con ciclo Do-While");
+        oSerie8.serie8Dowhile(n);
+
 
         System.out.print("\nSerie 9: ");
         System.out.println("\nSerie usando bucle for:");
