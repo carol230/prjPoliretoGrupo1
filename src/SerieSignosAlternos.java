@@ -55,11 +55,7 @@ public class SerieSignosAlternos {
             count++;
         }
     }
-    /*
-     * showSerie muestra la serie
-     * @param NroTerminos : numero de terminos para la serie
-     */
-    public void showSerie5(int NroTerminos){
+    public static void showSerie5(int NroTerminos){
         System.out.print("\nCiclo for: ");
         int contador=0;
         for (int i=2;contador<NroTerminos;++i){
@@ -89,7 +85,7 @@ public class SerieSignosAlternos {
         j++;
         }
     }
-    public void showSerie6(int NroTerminos){
+    public static void showSerie6(int NroTerminos){
         System.out.print("\nCiclo for: ");
         for (int i=1;i<NroTerminos;++i){
             System.out.print(i*i+" ");
@@ -107,4 +103,5 @@ public class SerieSignosAlternos {
             j++;
         }
     }
+    
 }
