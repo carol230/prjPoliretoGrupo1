@@ -59,6 +59,17 @@ public class App {
         System.out.println("\nSerie usando bucle while:");
         oSerie10.procesowhile(n);
 
+    System.out.println("");
+
+        System.out.print("\nSerie 11: ");
+        System.out.println("\nSerie usando bucle for:");
+        serie11 oSerie11 = new serie11();
+        oSerie11.procesofor(n);
+        System.out.println("\nSerie usando bucle do while:");
+        oSerie11.procesodowhile(n);
+        System.out.println("\nSerie usando bucle while:");
+        oSerie11.procesowhile(n);
+
         oSerieSignosAlternos.close();
     }
 
