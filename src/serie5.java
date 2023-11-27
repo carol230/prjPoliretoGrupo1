@@ -1,29 +1,38 @@
 public class serie5 {
+    public boolean esPrimo(int numero){
+            for (int i=2;i<=numero/2;i++) {
+                if (numero%i==0){
+                    return false;
+                }
+            }
+            return numero>1;
+        }
     public void showSerie5(int NroTerminos){
+        
         System.out.println("\nSerie usando bucle for: ");
         int contador=0;
+
         /*
         * Metodo ciclo For
         */
-        for (int i=2;contador<NroTerminos;++i){
-        if (i==2||(i%2!=0)){
-            System.out.print(i+" ");
-            contador++;
+        for (int i = 2; contador < NroTerminos; ++i) {
+            if(esPrimo(i)){
+                System.out.print(i+" ");
+                contador++;
+            }
         }
-    }
+    
         System.out.println("\nSerie usando bucle doWhile: ");
         /*
         * Metodo ciclo doWhile
         */
         contador=0;
         int k=2;
-        
         do{
-        if(k==2||(k%2!=0)){
-            System.out.print(k+" ");
-            contador++;
-        }
-        k++;
+        if(esPrimo(k)){
+                System.out.print(k+" ");
+                contador++;
+            }
         }while(contador<NroTerminos);
         System.out.println("\nSerie usando bucle while: ");
         /*
@@ -32,11 +41,11 @@ public class serie5 {
         contador=0;
         int j=2;
         while(contador<NroTerminos) {
-        if (j==2||(j%2!=0)){
-            System.out.print(j+" ");
-            contador++;
-        }
-        j++;
+        if(esPrimo(j)){
+                System.out.print(j+" ");
+                contador++;
+            }
+            j++;
         }
     }
         

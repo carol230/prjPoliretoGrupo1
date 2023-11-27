@@ -32,7 +32,7 @@ public class serie09 {
         }
     }
 
-   /*  public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner (System.in);
 
         System.out.print("Introduce un número entero: ");
@@ -54,5 +54,5 @@ public class serie09 {
         oSerie09.procesowhile(num);
         
     }
-    */
+    
 }

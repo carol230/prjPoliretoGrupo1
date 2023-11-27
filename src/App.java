@@ -15,9 +15,9 @@ public class App {
         SerieSignosAlternos.showSerie1(n);
         System.out.println("");
         SerieSignosAlternos.showSerie2(n);
-        System.out.println();
+        System.out.println("");
 
-        System.out.print("Serie 5: ");
+        System.out.print("\nSerie 5: ");
         serie5 oSerie5 = new serie5();
         oSerie5.showSerie5(n);
         System.out.println("");
@@ -34,7 +34,7 @@ public class App {
         oSerie7.serie7While(n);
         System.out.println("\nSerie usando bucle do while:");
         oSerie7.serie7Dowhile(n);
-        System.out.println();
+        System.out.println("");
 
         System.out.println("\nSerie 8:");
         Serie8 oSerie8 = new Serie8();
@@ -44,7 +44,7 @@ public class App {
         oSerie8.serie8While(n);
         System.out.println("\nSerie usando bucle do while:");
         oSerie8.serie8Dowhile(n);
-        System.out.println();
+        System.out.println("");
 
         System.out.print("\nSerie 9: ");
         System.out.println("\nSerie usando bucle for:");
