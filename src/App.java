@@ -15,13 +15,15 @@ public class App {
         SerieSignosAlternos.showSerie1(n);
         System.out.println("");
         SerieSignosAlternos.showSerie2(n);
-        System.out.println("");
+        System.out.println();
 
         System.out.print("Serie 5: ");
-        SerieSignosAlternos.showSerie5(n);
+        serie5 oSerie5 = new serie5();
+        oSerie5.showSerie5(n);
         System.out.println("");
         System.out.print("\nSerie 6: ");
-        SerieSignosAlternos.showSerie6(n);
+        serie6 oSerie6 = new serie6();
+        oSerie6.showSerie6(n);
         System.out.println();
 
         System.out.println("\nSerie 7:");

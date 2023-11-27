@@ -8,17 +8,16 @@
  */ 
 
 public class Serie7 {
-
     /**
      * Metodo ciclo For
      * @param nroTerminos
      */
     public void serie7For(int nroTerminos){ 
         for (int i = 1; i <=nroTerminos; i++) {
-            System.out.print(1+3*(i-1)+"  ");
+            System.out.print(1+3*(i-1)+" ");
         }
     }
-
+    
     /**
      * Metodo ciclo While
      * @param nroTerminos
@@ -26,7 +25,7 @@ public class Serie7 {
     public void serie7While(int nroTerminos){
         int i = 1;
         while (i <= nroTerminos) {
-             System.out.print(1+3*(i-1)+"  ");
+             System.out.print(1+3*(i-1)+" ");
              i++;
         }
     }
@@ -38,7 +37,7 @@ public class Serie7 {
     public void serie7Dowhile(int nroTerminos){
         int i = 1;
         do {
-            System.out.print(1+3*(i-1)+"  ");
+            System.out.print(1+3*(i-1)+" ");
             i ++;            
         } while (i<=nroTerminos);
     }

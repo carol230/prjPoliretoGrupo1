@@ -12,7 +12,7 @@ public class Serie8 {
      */
     public void serie8For(int nroTerminos){
         for (int i = 1; i <= nroTerminos; i++) {
-            System.out.print(3+5*(i-1)+"  ");
+            System.out.print(3+5*(i-1)+" ");
         }
     }
 
@@ -23,7 +23,7 @@ public class Serie8 {
     public void serie8While(int nroTerminos){
         int i = 1;
         while (i <= nroTerminos) {
-            System.out.print(3+5*(i-1)+"  ");
+            System.out.print(3+5*(i-1)+" ");
             i ++;
         }
     }
@@ -35,7 +35,7 @@ public class Serie8 {
     public void serie8Dowhile(int nroTerminos){
         int i=1;
         do {
-            System.out.print(3+5*(i-1)+"  ");
+            System.out.print(3+5*(i-1)+" ");
             i ++;
         } while (i<=nroTerminos);
     }
