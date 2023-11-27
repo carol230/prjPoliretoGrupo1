@@ -8,7 +8,7 @@
 */
 import java.util.Scanner;
 
-public class SerieSignosAlternos {
+public class Serie0102 {
 
     /**
      * Generar la serie Fibonacci usando un bucle for

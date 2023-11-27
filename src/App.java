@@ -17,28 +17,10 @@ public class App {
         int n = oSerieSignosAlternos.nextInt();
 
         // Llamar a los métodos de la clase SerieSignosAlternos
-        System.out.println("SERIE 1");
-        SerieSignosAlternos.fibonacciConFor(n);
+        System.out.println("SERIE 1 y 2");
+        SerieSignosAlternos.showSerie1(n);
         System.out.println("");
-        SerieSignosAlternos.fibonacciConDoWhile(n);
-        System.out.println("");
-        SerieSignosAlternos.fibonacciConWhile(n);
-        System.out.println("");
-        // Llamar a los métodos de la clase SerieSignosAlternos2
-        System.out.println("\nSERIE 2");
-        SerieSignosAlternos2.serieS2ConFor(n);
-        System.out.println("");
-        SerieSignosAlternos2.serieS2ConDoWhile(n);
-        System.out.println("");
-        SerieSignosAlternos2.serieS2ConWhile(n);
-        System.out.println("");
-        
-        System.out.print("Serie 5: ");
-        SerieSignosAlternos.showSerie5(n);
-        System.out.println("");
-        System.out.print("\nSerie 6: ");
-        SerieSignosAlternos.showSerie6(n);
-
+        SerieSignosAlternos.showSerie2(n);
         System.out.println("");
 
         System.out.println();
