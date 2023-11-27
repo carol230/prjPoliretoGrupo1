@@ -78,6 +78,57 @@ public class SerieSignosAlternos {
         }
     }
 
+    public static void showSerie5(int NroTerminos){
+        System.out.println("\nSerie usando bucle for: ");
+        int contador=0;
+        for (int i=2;contador<NroTerminos;++i){
+        if (i==2||(i%2!=0)){
+            System.out.print(i+" ");
+            contador++;
+        }
+    }
+        System.out.println("\nSerie usando bucle doWhile: ");
+        contador=0;
+        int k=2;
+        do{
+        if(k==2||(k%2!=0)){
+            System.out.print(k+" ");
+            contador++;
+        }
+        k++;
+        }while(contador<NroTerminos);
+        System.out.println("\nSerie usando bucle while: ");
+        contador=0;
+        int j=2;
+        while(contador<NroTerminos) {
+        if (j==2||(j%2!=0)){
+            System.out.print(j+" ");
+            contador++;
+        }
+        j++;
+        }
+    }
+    public static void showSerie6(int NroTerminos){
+        System.out.println("\nSerie usando bucle for: ");
+        for (int i=1;i<NroTerminos;++i){
+            System.out.print(i*i+" ");
+        }
+        System.out.println("\nSerie usando bucle doWhile: ");
+        int k=1;
+        do {
+            System.out.print(k*k+" ");
+            k++;
+        } while (k<NroTerminos);
+        System.out.println("\nSerie usando bucle while: ");
+        int j=1;
+        while(j<NroTerminos){
+            System.out.print(j*j+" ");
+            j++;
+        }
+    }
+        
+    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Ingrese el número de términos a generar: ");
@@ -86,4 +137,5 @@ public class SerieSignosAlternos {
         showSerie2(n);
         scanner.close();
     }
+
 }
